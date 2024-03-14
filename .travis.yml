@@ -1,7 +1,7 @@
 jobs:
   include:
     - stage: test
-      if: (NOT type IN (pull_request)) AND (branch = master)
+      if: (NOT type IN (pull_request)) AND (bch = master)
       dist: bionic
       language: python
       python:
